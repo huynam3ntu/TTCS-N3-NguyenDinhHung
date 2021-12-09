@@ -1,12 +1,13 @@
 # I. Phân tích bài toán
-	Để đơn giản hóa việc xử lý các phép toán, đề tài này sẽ xử lý các phép toán liên quan đến số nguyên.
-	Nếu chúng ta xem xét về giới hạn (số các chữ số có thể có) của các kiểu dữ liệu số nguyên trong C/C++,
+  Để đơn giản hóa việc xử lý các phép toán, đề tài này sẽ xử lý các phép toán liên quan đến số nguyên.
+  Nếu chúng ta xem xét về giới hạn (số các chữ số có thể có) của các kiểu dữ liệu số nguyên trong C/C++,
 	ví dụ như:
 		int: khoảng 10 mũ 9
 		long int: khoảng 10 mũ 12
 		long long int khoảng 10 mũ 18
 	Có thể thấy, chúng ta chỉ có thể lưu trữ tối đa 10 mũ 18 số nguyên, tức là chỉ một số có tối đa 19 chữ số.
-  Vấn đề xảy ra nếu chúng ta phải đối phó với các số lớn hơn 19 chữ số. Hay nói các khác là vấn đề về việc tràn số!
+  Vấn đề xảy ra nếu chúng ta phải đối phó với các số lớn hơn 19 chữ số.
+  Hay nói các khác là vấn đề về việc tràn số trong khi thực hiện tính toán với các số nguyên lớn!
 # II. Tìm hiểu giải thuật
   Để lưu trữ các chữ số lớn hơn 19 chữ số, thông thường người ta sẽ lưu trữ số nguyên theo 3 cách:
 1. Xâu ký tự hoặc mảng xâu: Trong đó, mỗi ký tự của một chuỗi tương ứng với một chữ số của số nguyên lớn tính từ trái sang phải.
