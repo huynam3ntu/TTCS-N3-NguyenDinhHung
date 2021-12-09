@@ -1,6 +1,7 @@
 # I. Phân tích bài toán
 	Để đơn giản hóa việc xử lý các phép toán, đề tài này sẽ xử lý các phép toán liên quan đến số nguyên.
-	Nếu chúng ta xem xét về giới hạn (số các chữ số có thể có) của các kiểu dữ liệu số nguyên trong C/C++, ví dụ như:
+	Nếu chúng ta xem xét về giới hạn (số các chữ số có thể có) của các kiểu dữ liệu số nguyên trong C/C++,
+	ví dụ như:
 		int: khoảng 10 mũ 9
 		long int: khoảng 10 mũ 12
 		long long int khoảng 10 mũ 18
