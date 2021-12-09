@@ -6,7 +6,7 @@ I. Phân tích bài toán
 		long long int khoảng 10 mũ 18
 	Có thể thấy, chúng ta chỉ có thể lưu trữ tối đa 10 mũ 18 số nguyên, tức là chỉ một số có tối đa 19 chữ số. Vấn đề xảy ra nếu chúng ta phải đối phó với các số lớn hơn 19 chữ số. Hay nói các khác là vấn đề về việc tràn số!
 II. Tìm hiểu giải thuật
-Để lưu trữ các chữ số lớn hơn 19 chữ số, thông thường người ta sẽ lưu trữ số nguyên theo 3 cách:
+	Để lưu trữ các chữ số lớn hơn 19 chữ số, thông thường người ta sẽ lưu trữ số nguyên theo 3 cách:
 1. Xâu ký tự hoặc mảng xâu: Trong đó, mỗi ký tự của một chuỗi tương ứng với một chữ số của số nguyên lớn tính từ trái sang phải.
 2. Mảng các số: Sử dụng mảng để lưu trữ các chữ số (nhóm các chữ số), và một biến ghi nhận số chữ số để thuận tiện trong quá trình xử lý.
 3. Danh sách liên kết các số: Sử dụng danh sách liên kết các chữ số (nhóm các chữ số), cách này sẽ linh hoạt hơn đối với việc sử dụng bộ nhớ.
