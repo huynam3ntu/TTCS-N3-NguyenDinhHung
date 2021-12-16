@@ -17,4 +17,4 @@
 	Mỗi phần tử của vector a sẽ lưu một đoạn của số nguyên lớn – đoạn đó nhiều nhất sẽ có 9 chữ số. Như vậy, 1 số nguyên lớn có 90 chữ số chỉ cần sử dụng vector có kích thước size là 10. 
 # III. Công cụ lập trình
 - Công cụ lập trình sử dụng: DEV-C++ / Visual Studio.
-
+# Full code: Code.cpp
