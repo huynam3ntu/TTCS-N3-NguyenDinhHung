@@ -281,7 +281,7 @@ struct bigint {
  
     typedef vector<long long> vll;
  
-    static vll karatsubaMultiply(const vll &a, const vll &b) { //ho tro xu ly toan tu *
+    static vll karatsubaMultiply(const vll &a, const vll &b) {
         int n = a.size();
         vll res(n + n);
         if (n <= 32) {
