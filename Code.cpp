@@ -14,11 +14,11 @@ struct bigint {
     bigint(const string &s) {	//Chuyen doi chuoi nhap thanh so nguyen lon
         read(s);
     }
-    void operator=(const bigint &v) {
+    void operator = (const bigint &v) {
         sign = v.sign;
         a = v.a;
     }
-    bigint operator-() const {
+    bigint operator - () const {
         bigint res = *this;
         res.sign = -sign;
         return res;
@@ -27,7 +27,7 @@ struct bigint {
     bigint(long long v) {
         *this = v;
     }
-    void operator=(long long v) {
+    void operator = (long long v) {
         sign = 1;
         if (v < 0)
             sign = -1, v = -v;
@@ -68,7 +68,7 @@ struct bigint {
         res /= v;
         return res;
     }
-	int operator%(int v) const {	//Chia du 2 so nguyen
+	int operator % (int v) const {	//Chia du 2 so nguyen
         if (v < 0)
             v = -v;
         int m = 0;
@@ -190,16 +190,16 @@ struct bigint {
         return res;
     }
     
-    void operator+=(const bigint &v) {
+    void operator += (const bigint &v) {
         *this = *this + v;
     }
-    void operator-=(const bigint &v) {
+    void operator -= (const bigint &v) {
         *this = *this - v;
     }
-    void operator*=(const bigint &v) {
+    void operator *= (const bigint &v) {
         *this = *this * v;
     }
-    void operator/=(const bigint &v) {
+    void operator /= (const bigint &v) {
         *this = *this / v;
     }
     //Ham tinh toan: UCLN, BCNN
