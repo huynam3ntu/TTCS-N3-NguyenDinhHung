@@ -58,7 +58,7 @@ struct bigint {
     }
     
     //Xu ly voi so nguyen
-     bigint operator * (int v) const {	//nhan so lon voi so nguyen
+    bigint operator * (int v) const {	//nhan so lon voi so nguyen
         bigint res = *this;
         res *= v;
         return res;
@@ -328,6 +328,7 @@ struct bigint {
         return a.empty() || (a.size() == 1 && !a[0]);
     }  
 };
+
 int main(){
 	bigint n1, n2;
     cout << "\nSo thu nhat: ";
